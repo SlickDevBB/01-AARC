@@ -1,0 +1,80 @@
+.homeContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+}
+
+.selectorContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.gotchiContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.highscore {
+  margin: 1.6rem auto 3.2rem;
+  color: white;
+}
+
+.gotchiContainer img {
+  max-height: 33rem;
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 2rem;
+}
+
+
+.detailsPanelContainer {
+  margin-top: 4rem;
+}
+
+.errorContainer {
+  color: white;
+  max-width: 60rem;
+  margin: 5.4rem auto;
+}
+
+.errorContainer h1 {
+  font-size: 5rem;
+  opacity: 0.4;
+}
+
+.errorContainer p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.errorContainer .secondaryErrorMessage {
+  margin: 5.4rem 0 2.4rem;
+}
+.errorContainer button {
+  margin-top: 1.6rem;
+}
+
+.modalContent h1 {
+  font-size: 3.2rem;
+}
+.modalContent p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+/* for screen sizes wider than 768px */
+@media only screen and (min-width: 768px) {
+  .homeContainer {
+    
+  }
+
+  .detailsPanelContainer {
+    margin-top: 0;
+  }
+}
+

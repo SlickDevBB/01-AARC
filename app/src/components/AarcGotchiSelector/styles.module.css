@@ -1,0 +1,70 @@
+@import 'theme/vars.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&effect=neon&display=swap');
+
+.selectTeam {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    border-bottom: solid white 1px;
+}
+
+.aarcGotchiSelectorContainer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+
+    font-family: 'Orbitron', sans-serif;
+}
+
+.selectedGotchiContainer {
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+
+    width: 300px;
+    padding: 20px;
+}
+
+.nameAndId {
+
+    color: white;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.chevronAndSVG {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+}
+
+.chevronRotate90degACW {
+
+    margin: 5px;
+
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.chevronRotate90degCW {
+
+    margin: 5px;
+
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+
+.imgSVG {
+
+    margin: 10px;
+
+    width: 180px;
+    height: 180px;
+}

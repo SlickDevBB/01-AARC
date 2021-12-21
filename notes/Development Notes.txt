@@ -1,0 +1,18 @@
+To do:
+
+-   Drop down gotchi selector for players with a ton of gotchis
+-   Defaul gotchi assignment with scrollable collateral types for players 
+    with < 3 gotchis
+-   Sort out weird sprite not loading every boot problem
+-   Make the app keep trying to fetch random gotchis and don't allow battle 
+    until it gets them. Refer web3/action.tsx and Home/index.tsx
+-   Tidy up file pathing so don't end up with crazy relative paths
+-   Sequence executing actions in a better way rather than delays and action durations
+-   On hover in out etc. for player menu buttons need to be interactive with
+    the circle and not the icon square
+-   add seeing stars animation to players knocked out gotchis
+
+To remember:
+
+-   update 'games/scenes/boot-scene.ts' and 'games/main.tsx' with selected gotchis 
+    from react to be able to load into phaser

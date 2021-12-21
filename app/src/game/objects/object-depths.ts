@@ -1,0 +1,5 @@
+export const AARC_PLAYER_DEPTH = 50;
+export const AARC_HIGHLIGHT_RING_DEPTH = 10;
+export const AARC_ICON_IMAGE_DEPTH = 55;
+export const AARC_ICON_BACKGROUND_DEPTH = 54;
+export const AARC_SPEECH_DEPTH = 100;

@@ -1,0 +1,91 @@
+@import 'theme/vars.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&effect=neon&display=swap');
+
+.aarcTraitsContainer {
+
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+    margin: 0;
+
+}
+
+.leftTraits {
+    width: 40%;
+    height: 20rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.middleTraits {
+    width: 20%;
+    height: 20rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    color: grey;
+}
+
+.rightTraits {
+    width: 40%;
+    height: 20rem;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.leftMeter {
+    width: 100%;
+    height: 1.4rem;
+    margin: auto;
+    background-color: var(--color-dark_1);
+    position: relative;
+}
+
+.leftPower {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: var(--color-purple_0);
+    border-radius: 2px;
+    border: solid var(--color-pink_0) 1px;
+}
+
+.rightMeter {
+    width: 100%;
+    height: 1.4rem;
+    margin: auto;
+    background-color: var(--color-dark_1);
+    position: relative;
+}
+
+.rightPower {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-purple_0);
+    border-radius: 2px;
+    border: solid var(--color-pink_0) 1px;
+}
+
+.spacer {
+    height: 2rem;
+}
